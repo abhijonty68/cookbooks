@@ -1,0 +1,8 @@
+---
+id: infra-client
+name: Chef Infra Client
+date_accepted: '2025-06-09T05:05:28+00:00'
+accepting_product: chef-workstation
+accepting_product_version: 5.6.21
+user: ubuntu
+file_format: 1

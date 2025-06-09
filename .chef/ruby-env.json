@@ -1,0 +1,22 @@
+{
+  "omnibus path": {
+    "PATH": "/opt/chef-workstation/bin:/home/ubuntu/.chef/gem/ruby/3.1.0/bin:/opt/chef-workstation/embedded/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/opt/chef-workstation/gitbin",
+    "GEM_ROOT": "/opt/chef-workstation/embedded/lib/ruby/gems/3.1.0",
+    "GEM_HOME": "/home/ubuntu/.chef/gem/ruby/3.1.0",
+    "GEM_PATH": "/home/ubuntu/.chef/gem/ruby/3.1.0:/opt/chef-workstation/embedded/lib/ruby/gems/3.1.0"
+  },
+  "omnibus root": "/opt/chef-workstation",
+  "ruby info": {
+    "Executable": "/opt/chef-workstation/embedded/bin/ruby",
+    "Version": "3.1.6",
+    "RubyGems": {
+      "RubyGems Version": "3.3.27",
+      "RubyGems Platforms": [
+        "ruby",
+        "x86_64-linux"
+      ]
+    }
+  },
+  "build_version": "25.5.1084",
+  "chef-cli": "5.6.21"
+}
