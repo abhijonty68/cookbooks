@@ -11,10 +11,12 @@
 # hlsearch on (H) or off (h):
 ~h
 # Command Line History (newest to oldest):
+:wq!
+|2,0,1749464031,,"wq!"
+:q!
+|2,0,1749463898,,"q!"
 :wq
 |2,0,1749447863,,"wq"
-:wq!
-|2,0,1749445780,,"wq!"
 
 # Search String History (newest to oldest):
 
@@ -27,36 +29,92 @@
 # Registers:
 
 # File marks:
-'0  8  2  ~/cookbooks/upgrade-tools/recipes/default.rb
-|4,48,8,2,1749447863,"~/cookbooks/upgrade-tools/recipes/default.rb"
-'1  13  18  ~/upgrade-tools/recipes/default.rb
-|4,49,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
-'2  6  0  ~/upgrade-tools/recipes/default.rb
-|4,50,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
-'3  6  0  ~/upgrade-tools/recipes/default.rb
-|4,51,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
-'4  1  0  ~/upgrade-tools/recipes/default.rb
-|4,52,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
-'5  1  0  ~/upgrade-tools/recipes/default.rb
-|4,53,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
-'6  1  0  ~/upgrade-tools/recipes/default.rb
-|4,54,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
+'0  17  0  ~/chef_practice1/cookbooks/upgrade-tools/recipes/default.rb
+|4,48,17,0,1749464031,"~/chef_practice1/cookbooks/upgrade-tools/recipes/default.rb"
+'1  1  0  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,49,1,0,1749463898,"~/cookbooks/upgrade-tools/recipes/default.rb"
+'2  8  2  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,50,8,2,1749447863,"~/cookbooks/upgrade-tools/recipes/default.rb"
+'3  8  2  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,51,8,2,1749447863,"~/cookbooks/upgrade-tools/recipes/default.rb"
+'4  13  18  ~/upgrade-tools/recipes/default.rb
+|4,52,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
+'5  6  0  ~/upgrade-tools/recipes/default.rb
+|4,53,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
+'6  6  0  ~/upgrade-tools/recipes/default.rb
+|4,54,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
 '7  1  0  ~/upgrade-tools/recipes/default.rb
 |4,55,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
+'8  1  0  ~/upgrade-tools/recipes/default.rb
+|4,56,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
+'9  1  0  ~/upgrade-tools/recipes/default.rb
+|4,57,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
 
 # Jumplist (newest first):
+-'  17  0  ~/chef_practice1/cookbooks/upgrade-tools/recipes/default.rb
+|4,39,17,0,1749464031,"~/chef_practice1/cookbooks/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/chef_practice1/cookbooks/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749463976,"~/chef_practice1/cookbooks/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749463898,"~/cookbooks/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749463898,"~/cookbooks/upgrade-tools/recipes/default.rb"
 -'  8  2  ~/cookbooks/upgrade-tools/recipes/default.rb
 |4,39,8,2,1749447863,"~/cookbooks/upgrade-tools/recipes/default.rb"
+-'  8  2  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,39,8,2,1749447863,"~/cookbooks/upgrade-tools/recipes/default.rb"
+-'  8  2  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,39,8,2,1749447863,"~/cookbooks/upgrade-tools/recipes/default.rb"
+-'  8  2  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,39,8,2,1749447863,"~/cookbooks/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/cookbooks/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749447850,"~/cookbooks/upgrade-tools/recipes/default.rb"
 -'  1  0  ~/cookbooks/upgrade-tools/recipes/default.rb
 |4,39,1,0,1749447850,"~/cookbooks/upgrade-tools/recipes/default.rb"
 -'  13  18  ~/upgrade-tools/recipes/default.rb
 |4,39,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
 -'  13  18  ~/upgrade-tools/recipes/default.rb
 |4,39,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
+-'  13  18  ~/upgrade-tools/recipes/default.rb
+|4,39,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
+-'  13  18  ~/upgrade-tools/recipes/default.rb
+|4,39,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
+-'  13  18  ~/upgrade-tools/recipes/default.rb
+|4,39,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
+-'  13  18  ~/upgrade-tools/recipes/default.rb
+|4,39,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
+-'  13  18  ~/upgrade-tools/recipes/default.rb
+|4,39,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
+-'  13  18  ~/upgrade-tools/recipes/default.rb
+|4,39,13,18,1749446042,"~/upgrade-tools/recipes/default.rb"
 -'  6  0  ~/upgrade-tools/recipes/default.rb
 |4,39,6,0,1749446009,"~/upgrade-tools/recipes/default.rb"
 -'  6  0  ~/upgrade-tools/recipes/default.rb
 |4,39,6,0,1749446009,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749446009,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749446009,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749446009,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749446009,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749446009,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749446009,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
+-'  6  0  ~/upgrade-tools/recipes/default.rb
+|4,39,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
 -'  6  0  ~/upgrade-tools/recipes/default.rb
 |4,39,6,0,1749445780,"~/upgrade-tools/recipes/default.rb"
 -'  6  0  ~/upgrade-tools/recipes/default.rb
@@ -69,6 +127,42 @@
 |4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
 -'  1  0  ~/upgrade-tools/recipes/default.rb
 |4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445715,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
+-'  1  0  ~/upgrade-tools/recipes/default.rb
+|4,39,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
 -'  1  0  ~/upgrade-tools/recipes/default.rb
 |4,39,1,0,1749445669,"~/upgrade-tools/recipes/default.rb"
 -'  1  0  ~/upgrade-tools/recipes/default.rb
@@ -76,9 +170,16 @@
 
 # History of marks within files (newest to oldest):
 
+> ~/chef_practice1/cookbooks/upgrade-tools/recipes/default.rb
+	*	1749464029	0
+	"	17	0
+	^	17	0
+	.	16	3
+	+	16	3
+
 > ~/cookbooks/upgrade-tools/recipes/default.rb
-	*	1749447862	0
-	"	8	2
+	*	1749463894	0
+	"	1	0
 	^	8	3
 	.	8	2
 	+	9	0
